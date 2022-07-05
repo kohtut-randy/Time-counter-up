@@ -13,23 +13,23 @@
     </script>
   </head>
   <body class="flex flex-col items-center justify-center">
-     <div class="container w-2/3 h-2/4 mx-auto mt-12 lg:mt-32 flex flex-col items-center justify-center bg-none  lg:shadow-lg lg:shadow-cyan-500/50">
+     <div class="container w-2/3 h-2/4 mx-auto mt-12 lg:mt-32 flex flex-col items-center justify-center">
         <h1 class="text-2xl text-white mt-4">Time Counter</h1>
-        <div class="flex lg:flex-row items-center justify-center gap-x-2  mt-16">
+        <div class=" m-auto flex lg:flex-row items-center justify-center gap-x-10">
           <div class="flex flex-col items-center justify-center gap-y-4">
             <h2 class="text-8xl text-white" id="countMin"> 00 </h2>
-            <span class="text-2xl text-white">minutes</span>
+            <span class=" text-sm lg:text-2xl text-white">minutes</span>
           </div>
-          <span class="text-6xl text-white">
+          <span class="text-6xl text-white flex flex-col items-center justify-center mb-10">
             :
           </span>
           <div class="flex flex-col items-center justify-center gap-y-4">
             <h2 class="text-8xl text-white" id="countSec"> 00 </h2>
-            <span class="text-2xl text-white">seconds</span>
+            <span class=" text-sm lg:text-2xl text-white">seconds</span>
           </div>
         </div>
      </div>
-     <div  class="flex flex-row items-center justify-center gap-x-12 mt-20" >
+     <div  class="flex flex-row items-center justify-center gap-x-12 mt-14" >
       <button type="button" onclick="countingStart()" class="flex items-center justify center  bg-cyan-500 shadow-sm shadow-cyan-500 px-2 py-2 rounded-md text-white">
         start
       </button>
