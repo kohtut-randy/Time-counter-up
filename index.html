@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Count</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./config.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <script>
+      console.log("NLINIE");
+    </script>
+    
+  </head>
+  
+  <body class=" flex flex-col items-center justify center  bg-[url('/img/digital.jpg')] bg-center bg-cover">
+     <div class=" container w-2/3 h-2/4 mx-auto mt-12 lg:mt-32 flex flex-col items-center justify-center bg-none lg:bg-[url('/img/digital.jpg')] lg:bg-cover lg:shadow-lg shadow-cyan-500/50">
+        <h1 class="text-2xl text-white mt-4">Time Counter</h1>
+        <div class="flex lg:flex-row items-center justify-center gap-x-2  mt-16">
+          <div class="flex flex-col items-center justify-center gap-y-4">
+            <h2 class="text-8xl text-white" id="countMin"> 00 </h2>
+            <span class="text-2xl text-white">minutes</span>
+          </div>
+          <span class="text-6xl text-white">
+            :
+          </span>
+          <div class="flex flex-col items-center justify-center gap-y-4">
+            <h2 class="text-8xl text-white" id="countSec"> 00 </h2>
+            <span class="text-2xl text-white">seconds</span>
+          </div>
+        </div>
+     </div>
+     <div  class="flex flex-row items-center justify-center gap-x-12 mt-20" >
+      <button type="button" onclick="countingStart()" class="flex items-center justify center  bg-cyan-500 shadow-sm shadow-cyan-500 px-2 py-2 rounded-md text-white">
+        start
+      </button>
+      <button type="button" onclick="countingStop()" class="flex items-center justify center  bg-cyan-500 shadow-sm shadow-cyan-500  px-3 py-2 rounded-md text-white">
+        stop
+      </button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

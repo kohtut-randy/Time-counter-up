@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'digital';
+  src: url(./font/DS-DIGIB.TTF);
+}
+html {
+  font-family: 'digital' !important;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
