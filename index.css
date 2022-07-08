@@ -13,13 +13,3 @@ body{
   background-size: cover;
   background-position: center;
 }
-/* .container{
-  background-image: url(./img/digital.jpg);
-  background-size: cover;
-  background-position: center;
-} */
-/* @media(min-width:0px) and (max-width:480){
-  .container{
-    background-image: none;
-  }
-} */

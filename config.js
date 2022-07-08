@@ -4,9 +4,9 @@ tailwind.config = {
       colors: {
         clifford: "#da373d",
       },
-      // backgroundImage: {
-      //   'hero-pattern': "url('/img/digital.jpg')",
-      // },
+      backgroundImage: {
+        'hero-pattern': "url('/img/digital.jpg')",
+      },
       backgroundSize: {
         'auto': 'auto',
         'cover': 'cover',
